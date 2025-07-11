@@ -35,22 +35,27 @@ nav ul li {
 .banner-title {
     text-align: center;
     font: bold;
-    width: 905px;
-    height: 237px;
 }
 .header {
     background-image: url('../Assets/Hero-bg.png');
 }
-.image-greetings {
-    height: 49px;
-    width: 298px;
+.baby {
+    display:flex;
+    justify-content: space-between;
+    margin:o 35px 0 230px ;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.baby-content {
+    max-width: 580px;
+}
+.banner-profile-pic{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
 
-}
-.image-profile-pic {
-    width: 328px;
-    height: 403;
-    border-radius:48px ;
-}
 . image {
     max-width:580px ;
     display: flex;
