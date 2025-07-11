@@ -70,7 +70,7 @@ nav ul li {
     font-size: 38px;
     font-weight: bold;
     color: #252432;
-    /* padding-top: 200px; */
+    padding-top: 100px;
 }
 .secondary-bg {
     background-color:#FFEBEB;
@@ -108,32 +108,34 @@ main {
 .user-description {
     padding: 30px;
 }
-.about-me {
-    border-radius: 24px;
-    text-align: center;
-    padding: 130px 150px;
-    margin-top: 130px;
-}
+  
 .khan {
-    height: 60px;
-    width: 516px;
+    text-align: center;
 }
-footer {
+.khan-description {
+    text-align: center;
+}
+.image-profile{
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+}
+.footer {
     padding: 130px 230px;
     display: flex;
+    gap: 50px;
+    
 }
-.footer-colum {
+.footer-column {
     width: 50%;
 }
-footer input [type="text"],  footer input [type="email"],  footer textarea{
+footer input [type="text"]{
     height: 64px;
     border-radius: 5px;
     background-color: white;
     display: block;
-    width: 100%;
-    margin-bottom: 24px;
-    border: none;
 }
+
 .every {
     text-align: center;
 
