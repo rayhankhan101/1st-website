@@ -103,3 +103,20 @@ main {
 .user-description {
     padding: 30px;
 }
+.about-me {
+    border-radius: 24px;
+    text-align: center;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+.khan {
+    height: 60px;
+    width: 516px;
+}
+footer {
+    padding: 130px 230px;
+    display: flex;
+}
+.footer-colum {
+    width: 50%;
+}
