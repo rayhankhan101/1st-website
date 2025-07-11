@@ -120,3 +120,23 @@ footer {
 .footer-colum {
     width: 50%;
 }
+footer input [type="text"],  footer input [type="email"],  footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+}
+.every {
+    text-align: center;
+
+}
+.every-items {
+    display: flex;
+    justify-content: space-around;
+}
+.every-title{
+    color: #4E47FF;
+    
